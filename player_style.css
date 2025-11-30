@@ -1,0 +1,14 @@
+body {
+    margin: auto;
+    padding: auto;
+    background-color:black;
+    color:white;
+}
+
+h2 {
+    text-align:center;
+}
+
+#videoPlayer {
+    text-align:center;
+}
