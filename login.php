@@ -27,11 +27,11 @@
         <?php
             $passwd = $_POST["password"];
             $check = "147";
-            // $systemPasswd = "su";
+
             if ($passwd == $check) {
                 # code...
-                $url = "/index.php?token=114514"; // 目标链接
-                echo "<script>window.open('$url','_self');</script>";
+                ob_end_clean();
+                require_once("index.php");
             } else {
                 # code...
                 if ($passwd != "") {

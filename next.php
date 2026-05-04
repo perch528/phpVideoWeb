@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>perch pornhub</title>
+    <title>perch hub</title>
     <link rel="stylesheet" href="index_style.css">
 </head>
 <body>
-    <h2>perch pornhub</h2>
+    <h2>perch hub</h2>
     <?php 
         $newpath = $_GET["path"];
+        $fname = $_GET["fName"];
         echo $newpath."</br>";
         $list = scandir($newpath);
         foreach($list as $item){

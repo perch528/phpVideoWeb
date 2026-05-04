@@ -10,6 +10,7 @@
     <h2>perch player</h2>
     <?php
         $srcPath = $_GET["path"];
+        $srcPath = rtrim($srcPath,'/');
         //  echo "<div id='videoPlayer'><video width='400rem' height='300rem' src='$srcPath' controls></video></div>";
         echo <<<html
             <div id='videoPlayer'>
